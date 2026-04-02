@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { Search, ChevronUp, ChevronDown, ArrowUpDown } from 'lucide-react';
 
-const API_URL = 'https://api.llama.fi/stablecoins';
+const API_URL = 'https://stablecoins.llama.fi/stablecoins';
 
 function formatCurrency(value) {
   if (value == null || isNaN(value)) return '—';
